@@ -1,0 +1,12 @@
+<svg id="Ice_cream" data-name="Ice cream" xmlns="http://www.w3.org/2000/svg" width="168" height="500" viewBox="0 0 168 500">
+  <g id="stick" transform="translate(64 219)">
+    <rect id="Rectangle_172" data-name="Rectangle 172" width="40" height="281" rx="20" fill="#ffecb9"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="35" height="279" rx="17.5" transform="translate(5)" fill="#f9dfa2"/>
+  </g>
+  <g id="Group_326" data-name="Group 326" transform="translate(1774 -256)">
+    <path id="Rectangle_10" data-name="Rectangle 10" d="M84,0h0a84,84,0,0,1,84,84V343a16,16,0,0,1-16,16H16A16,16,0,0,1,0,343V84A84,84,0,0,1,84,0Z" transform="translate(-1774 256)" fill="#fff9e8"/>
+    <path id="Rectangle_5" data-name="Rectangle 5" d="M72,0h6a72,72,0,0,1,72,72V316a16,16,0,0,1-16,16H16A16,16,0,0,1,0,316V72A72,72,0,0,1,72,0Z" transform="translate(-1756 283)" fill="#fff5d6"/>
+  </g>
+  <rect id="Rectangle_917" data-name="Rectangle 917" width="11" height="72" rx="5.5" transform="translate(50 26)" fill="#fff9e8"/>
+  <rect id="Rectangle_918" data-name="Rectangle 918" width="11" height="72" rx="5.5" transform="translate(60 9)" fill="#fff9e8"/>
+</svg>

@@ -2,7 +2,7 @@
 import { useContext } from "react";
 import Button from "./UI/Button";
 import CartContext from "@/context/CartContext";
-
+import Link from "next/link";
 
 const NavBar = () => {
   const cartCtx = useContext(CartContext);
@@ -10,18 +10,16 @@ const NavBar = () => {
   const totalItems = cartCtx.items.reduce((acc, curr) => {
     return acc + curr.quantity;
   }, 0);
-  function handleShowCart() {
-    userProgressCtx.showCart();
-  }
+  
   return (
     <header id="main-header">
       <div className="title">
         <img src="logo.png" alt="logo" />
       </div>
       <nav>
-        <Button textOnly onClick={handleShowCart}>
-          Cart ({totalItems})
-        </Button>
+        <Link href="?modal=true">
+          <Button > Cart {totalItems>0 && totalItems}</Button>
+        </Link>
       </nav>
     </header>
   );
